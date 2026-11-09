@@ -130,3 +130,12 @@ button:focus-visible {
         font-size: 1.3rem;
     }
 }
+
+/* 押下済みボタン */
+button:disabled {
+    background-color: #aaaaaa;
+    box-shadow: none;
+    cursor: not-allowed;
+    transform: none;
+    opacity: 0.7;
+}
